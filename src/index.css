@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button {
+  transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.bg-blue-100 {
+  background-image: linear-gradient(to bottom right, #cffafe, #e0f2fe);
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
